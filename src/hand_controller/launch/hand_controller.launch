@@ -1,0 +1,3 @@
+<launch>
+  <node name="hand_controller" pkg="hand_controller" type="hand_controller.py"/>
+</launch>

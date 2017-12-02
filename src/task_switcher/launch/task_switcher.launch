@@ -1,0 +1,3 @@
+<launch>
+  <node name="task_switcher" pkg="task_switcher" type="task_switcher.py"/>
+</launch>

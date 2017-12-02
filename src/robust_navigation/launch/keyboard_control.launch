@@ -1,0 +1,5 @@
+<launch>
+  <node name="robot_base_controller" pkg="robot_base_controller" type="base_motor_controller.py"/>
+  <node name="teleop" pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py"/>
+  <node name="keyboard_control" pkg="robust_navigation" type="keyboard_control.py"/>
+</launch> 
